@@ -1,4 +1,4 @@
-//====== Copyright © 1996-2005, Valve Corporation, All rights reserved. =======
+//====== Copyright Â© 1996-2005, Valve Corporation, All rights reserved. =======
 //
 // TF Rocket Projectile
 //
@@ -32,6 +32,8 @@ public:
 	// IScorer interface
 	virtual CBasePlayer *GetScorer( void );
 	virtual CBasePlayer *GetAssistant( void ) { return NULL; }
+
+	virtual GetLeaderboard( CBaseEntity *pScorer );
 
 	void	SetScorer( CBaseEntity *pScorer );
 
